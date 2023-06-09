@@ -26,6 +26,6 @@ public class FindMaxArray {
             }
         }
         System.out.println("Số lớn nhất trong mảng là :" + maxNum);
-        System.out.println("Số lớn nhất trong mảng là :" + count);
+        System.out.println("tại vị trí :" + count);
     }
 }
