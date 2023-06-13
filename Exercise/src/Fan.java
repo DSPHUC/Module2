@@ -7,7 +7,7 @@ public class Fan {
         Fan fan1 = new Fan("fast", 10, "yelow", "on");
         String fan1Info = fan1.toString();
         System.out.println(fan1Info);
-        Fan fan2 = new Fan();
+        Fan fan2 = new Fan("on", "yelow", 10, "medium");
         fan2.setSpeed("medium");
         String fan2Info = fan2.toString();
         System.out.println(fan2Info);
@@ -29,7 +29,7 @@ public class Fan {
         return this.speed;
     }
 
-    public Fan() {
+    public Fan(String on, String yelow, int i, String medium) {
         this.speed = SLOW;
         this.on = false;
         this.radius = 5;
