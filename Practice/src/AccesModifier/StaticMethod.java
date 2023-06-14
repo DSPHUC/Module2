@@ -1,4 +1,4 @@
-package AccesModìier;
+package AccesModifier;
 
 public class StaticMethod {
     private int rollno;
