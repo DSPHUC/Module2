@@ -1,4 +1,4 @@
-package AbstractClass_And_Interface.InterFace_Assignment_GeometryClass.ComparableFor;
+package AbstractClass_And_Interface.InterFace_Assignment_GeometryClass.Comparable;
 
 public class Rectangle extends Shape{
     private  double width = 1.0;

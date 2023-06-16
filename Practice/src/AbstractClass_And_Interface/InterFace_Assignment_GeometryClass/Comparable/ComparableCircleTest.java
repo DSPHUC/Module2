@@ -1,4 +1,4 @@
-package AbstractClass_And_Interface.InterFace_Assignment_GeometryClass.ComparableFor;
+package AbstractClass_And_Interface.InterFace_Assignment_GeometryClass.Comparable;
 
 import java.util.Arrays;
 
