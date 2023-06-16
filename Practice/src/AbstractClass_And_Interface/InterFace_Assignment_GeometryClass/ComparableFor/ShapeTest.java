@@ -1,4 +1,4 @@
-package AbstractClass_And_Interface.Interface_ComparableFor_Assignment_GeometryClass;
+package AbstractClass_And_Interface.InterFace_Assignment_GeometryClass.ComparableFor;
 
 public class ShapeTest {
     public static void main(String[] args) {

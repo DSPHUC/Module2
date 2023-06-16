@@ -1,9 +1,7 @@
-package AbstractClass_And_Interface.Interface_ComparableFor_Assignment_GeometryClass;
-
-import java.util.Arrays;
+package AbstractClass_And_Interface.InterFace_Assignment_GeometryClass.ComparableFor;
 
 
-public class ComparableCircle extends Circle implements Comparable<ComparableCircle> {
+public class ComparableCircle extends Rectangle.Circle implements Comparable<ComparableCircle> {
 
     public ComparableCircle() {
     }

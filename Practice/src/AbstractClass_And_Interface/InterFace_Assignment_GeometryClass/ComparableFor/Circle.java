@@ -1,4 +1,4 @@
-package AbstractClass_And_Interface.Interface_ComparableFor_Assignment_GeometryClass;
+package AbstractClass_And_Interface.InterFace_Assignment_GeometryClass.ComparableFor;
 
 public class Circle extends Shape {
     private double radius = 1.0;
@@ -33,6 +33,6 @@ public class Circle extends Shape {
 
     @Override
     public String toString() {
-        return " A Circle with radius" + getRadius() + ", which is a subclass of " + super.toString();
+        return " A Circle with radius " + getRadius() + ", which is a subclass of " + super.toString();
     }
 }

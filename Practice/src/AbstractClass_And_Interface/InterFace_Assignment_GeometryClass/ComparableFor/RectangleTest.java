@@ -1,6 +1,5 @@
-package AbstractClass_And_Interface.Interface_ComparableFor_Assignment_GeometryClass;
+package AbstractClass_And_Interface.InterFace_Assignment_GeometryClass.ComparableFor;
 
-import Inheritance.Rectangle;
 
 public class RectangleTest {
     public static void main(String[] args) {
