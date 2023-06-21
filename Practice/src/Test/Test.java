@@ -1,8 +1,8 @@
-package ArrayList;
+package Test;
 
-public class MyListTest {
+public class Test {
     public static void main(String[] args) {
-        MyList<Integer> numbers = new MyList<>(10);
+       MyList<Integer> numbers = new MyList<Integer>(10);
         numbers.add(10);
         numbers.add(9);
         numbers.add(0, 1);
@@ -10,4 +10,5 @@ public class MyListTest {
         System.out.println(numbers.indexOf(10));
         numbers.print();
     }
+
 }

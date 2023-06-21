@@ -1,4 +1,4 @@
-package AbstractClass_And_Interface.InterFace_Assignment_GeometryClass.Resizeable;
+package AbstractAndInterface.Resizeable;
 
 public class Rectangle extends Shape {
     private double width;

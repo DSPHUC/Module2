@@ -1,4 +1,4 @@
-package AbstractClass_And_Interface.InterFace_Assignment_GeometryClass.Resizeable;
+package AbstractAndInterface.Resizeable;
 
 public interface Resizeable {
     public abstract void resize(double percent);
