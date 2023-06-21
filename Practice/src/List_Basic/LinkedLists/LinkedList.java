@@ -9,6 +9,10 @@ public class LinkedList {
         head = new Node(data);
     }
 
+    public LinkedList() {
+
+    }
+
     public void add(int index, Object data) {
         Node temp = head;
         Node holder;
