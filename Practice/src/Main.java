@@ -1,19 +1,21 @@
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Scanner;
 
 public class Main {
     public static Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) {
-        String str = "abcaabcd";
-        char check = 'a';
-        int count = 0;
-        for (int i = 0; i < str.length(); i++) {
-            char result = str.charAt(i);
-
-            if (check==result ) {
-                count++;
-            }
-        }System.out.println(count);
+//    public static void main(String[] args) {
+//        String str = "abcaabcd";
+//        char check = 'a';
+//        int count = 0;
+//        for (int i = 0; i < str.length(); i++) {
+//            char result = str.charAt(i);
+//
+//            if (check==result ) {
+//                count++;
+//            }
+//        }System.out.println(count);
 //        System.out.println("Nhap do dai mang");
 //        int size = scanner.nextInt();
 //        int[] arr = new int[size];
@@ -68,5 +70,31 @@ public class Main {
 //        for (int i : arr) {
 //            System.out.print(i+"\t");
 //        }
-    }
+public static void main(String[] args) {
+    ArrayList collection1 = new ArrayList();
+    collection1.add("New York");
+    collection1.add("Atlanta");
+    collection1.add("Dallas");
+    collection1.add("Madison");
+    System.out.println("A list of cities in collection1:");
+    System.out.println(collection1);
+    System.out.println("\nIs Dallas in collection1: " + collection1.contains(collection1));
+    collection1.remove("Dallas");
+    System.out.println("\n" + collection1.size() + " cities are in collection1 now"+"\n is city now: "+collection1);
+    Collection collection2 = new ArrayList<>();
+    collection2.add("Searrle");
+    collection2.add("Portland");
+    collection2.add("Los Angeles");
+    collection2.add("Atlanta");
+    System.out.println("\nA list of cities in collection2:");
+    System.out.println(collection2);
+    ArrayList c1 = (ArrayList) collection1.clone();
+    c1.addAll(collection2);
+    System.out.println("\nCities in collection1 or collection2:");
+    System.out.println(c1);
+    c1 = (ArrayList) (collection1.clone());
+    c1.removeAll(collection2);
+    System.out.println("\nCities in collection1, but not in 2:");
+    System.out.println(c1);
+}
 }
