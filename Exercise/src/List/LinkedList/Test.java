@@ -1,2 +1,4 @@
-package List.LinkedList;public class Test {
+package List.LinkedList;
+
+public class Test {
 }
