@@ -1,4 +1,4 @@
-package Stack_Queue.Queue_Implement;
+package Stack_Queue.Queue_Implement.Using_LinkedList;
 
 public class MyLinkedListQueue {
     public Node head;
