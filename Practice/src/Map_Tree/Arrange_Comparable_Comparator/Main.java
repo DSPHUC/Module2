@@ -1,7 +1,6 @@
-package Stack_Queue.Map_Tree.Arrange_Comparable_Comparator;
+package Map_Tree.Arrange_Comparable_Comparator;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 

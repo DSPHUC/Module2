@@ -1,4 +1,4 @@
-package Stack_Queue.Map_Tree.Arrange_Comparable_Comparator;
+package Map_Tree.Arrange_Comparable_Comparator;
 
 public class Student implements Comparable<Student>{
     private String name;
