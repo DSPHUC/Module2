@@ -2,10 +2,10 @@ package Stack_Queue.Map_Tree.Partition_HashMap_And_HashSet;
 
 public class Student {
     private String name;
-    private byte age;
+    private int age;
     private String address;
     public Student(){}
-    public Student(String name, byte age,String address){
+    public Student(String name, int age,String address){
         this.name=name;
         this.address=address;
         this.age=age;
@@ -19,11 +19,11 @@ public class Student {
         this.name = name;
     }
 
-    public byte getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(byte age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
