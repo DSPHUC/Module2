@@ -2,7 +2,7 @@ package Stack_Queue.Queue_Implement.Using_Arrays;
 
 public class MyQueue {
     public int capacity;
-    public int[] queueArr;
+        public int[] queueArr;
     public int head = 0;
     public int tail = -1;
     public int currentSize = 0;
