@@ -1,4 +1,4 @@
-package Stack_Queue.Map_Tree.Partition_HashMap_And_HashSet;
+package Map_Tree.Partition_HashMap_And_HashSet;
 
 import java.util.*;
 
